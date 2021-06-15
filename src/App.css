@@ -1,0 +1,25 @@
+body {
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+.gifComponent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    '. . .'
+    '. . .'
+    '. . .';
+}
+
+.gifComponent img {
+  background-color: white;
+  border: none;
+  margin: 10px;
+  width: 400px;
+  height: auto;
+}
